@@ -1,9 +1,4 @@
-package multicastprova;
 
-/**
- *
- * @author mayara.barbosa
- */
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -18,12 +13,6 @@ public class Communication
 	private String enderecoGrupo = "224.0.0.1";
 	private DatagramSocket unicastSocket;
 	private MulticastSocket multicastSocket;
-	
-
-	public DatagramSocket getunicastSocket()
-	{
-		return unicastSocket;
-	}
 	
 	public Communication() throws IOException
 	{
